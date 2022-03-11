@@ -1,0 +1,22 @@
+{
+  "name": "momentum",
+  "version": "1.0.0",
+  "description": "study momentum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitit1000/study_momentum.git"
+  },
+  "keywords": [
+    "momentum"
+  ],
+  "author": "hitit1000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitit1000/study_momentum/issues"
+  },
+  "homepage": "https://github.com/hitit1000/study_momentum#readme"
+}
