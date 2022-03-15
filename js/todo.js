@@ -13,20 +13,21 @@ const saveToDos = () => {
 const deleteToDo = (event) => {
     const li = event.target.parentElement;
     li.remove();
-    const toDos = toDos.filter(item => item.id !== Number(li.id));
+    toDos = toDos.filter(item => item.id !== Number(li.id));
     saveToDos();
 }
 
 const paintToDo = (newTodoObj) => {
     const li = document.createElement("li");
     li.id = newTodoObj.id;
+    li.className = "toDoElement";
     const span = document.createElement("span");
     span.innerText = newTodoObj.Text;
     const button = document.createElement("button");
     button.innerText = "❌";
     button.addEventListener("click", deleteToDo);
-    li.appendChild(span);
     li.appendChild(button);
+    li.appendChild(span);
     toDoList.appendChild(li);
 }
 

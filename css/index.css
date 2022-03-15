@@ -6,3 +6,107 @@
 .hidden{
     display: none;
 }
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+.header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock{
+    font-size: 7em;
+    color:aliceblue;
+    margin-top: 2em;
+}
+
+.loginText{
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    margin-top: 1em;
+}
+
+.loginInput{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid white;
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#greeting{
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+
+.toDoText{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 2em;
+}
+
+.toDoInput{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid white;
+    font-size: 2em;
+    color:white;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.toDoElement{
+    color:white;
+    margin: 1em;
+}
+
+.toDoElement button{
+    background-color: transparent;
+    border: none;
+}
+
+.footer{
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+
+#weather_temp{
+    color:aliceblue;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#city{
+    color:aliceblue;
+    font-size: 1em;
+}
+
